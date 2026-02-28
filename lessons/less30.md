@@ -164,6 +164,8 @@ private:
 
 Теперь появляется естественное желание реализовать оба этих итератора, чтобы обойтись от copypaste.
 
+Также не хватает одного важного метода. Нужно, чтобы любой итератор неявно преобразовывался в константный. Это можно реализовать через конструктор или через оператор привидения типа. Рассмотрим второй способ:
+
 ```cpp
 template <bool IsConst>
 class base_iterator {
@@ -175,6 +177,8 @@ public:
 private:
     pointer_type ptr;
     base_iterator(T* ptr): ptr(ptr) {}
+
+    friend class vector<T>;   // важно добавить
 
 public:
     base_iterator(const base_iterator&) = default;
@@ -191,6 +195,10 @@ public:
     base_iterator& operator++() {
         ++ptr; 
         return *this;
+    }
+
+    operator base_operator<true>() const {   // оператор приведения типа к base_operator<true>
+        return {ptr};
     }
         
     base_iterator& operator++(int) {
@@ -238,8 +246,20 @@ const_iterator cbegin() const {
 const_iterator cend() const {
     return {arr + sz};
 }
+
+operator base_operator<true>() const {   // оператор приведения типа к base_operator<true>
+    return {ptr};
+}
 ```
 
+```cpp
+int main() {
+    vector<int> v;
+    vector<int>::iterator it = v.begin();
+    vector<int>::const_iterator cit = it;
+    vector<int>::iterator it2 = cit;   // не компилируется, так и задумано
+}
+```
 
 ## std::reverse_iterator
 
