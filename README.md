@@ -35,4 +35,6 @@
 31. [Потоки ввода/вывода. Перенаправление ввода/вывода](./lessons/less31.md)
 32. [Внутреннее устройство std::list и std::map](./lessons/less32.md)
 33. [Потоковые итераторы. Манипуляторы над потоками](./lessons/less33.md)
+34. [Внутреннее устройство std::unordered_map](./lessons/less34.md)
+35. [Аллокаторы, allocator_traits](./lessons/less35.md)
 

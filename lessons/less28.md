@@ -3,8 +3,7 @@
 4 уровня безопасности относительно исключений:
 - `nothrow exception guarantee` - не кидает исключения
 - `strong exception guarantee` - функция при броске исключения откатывает изменения назад
-- `basic exception guarantee` - по крайней мере все останется в валидном состаянии, нет `UB`, 
-нет `memory lick`, инварианты не нарушены
+- `basic exception guarantee` - по крайней мере все останется в валидном состаянии, нет `UB`, нет `memory lick`, инварианты не нарушены
 - `no exception guatantee` - нет гарантии безопасности
 
 
