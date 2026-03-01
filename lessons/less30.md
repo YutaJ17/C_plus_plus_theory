@@ -171,7 +171,7 @@ template <bool IsConst>
 class base_iterator {
 public:
     using pointer_type = std::conditional_t<IsConst, const T*, T*> ptr;
-    using reference_type std::conditional_t<IsConst, const T&, T&> ptr;
+    using reference_type = std::conditional_t<IsConst, const T&, T&> ptr;
     using value_type = T;
 
 private:
