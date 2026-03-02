@@ -38,4 +38,6 @@
 34. [Внутреннее устройство std::unordered_map](./lessons/less34.md)
 35. [Аллокаторы, allocator_traits](./lessons/less35.md)
 36. [Allocator_aware контейнеры. Перегрузка new и delete](./lessons/less36.md)
+37. [Разновидности и реализация operator new. Выравнивания. Битовые поля.](./lessons/less37.md)
+
 
