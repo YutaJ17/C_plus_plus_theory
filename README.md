@@ -37,4 +37,5 @@
 33. [Потоковые итераторы. Манипуляторы над потоками](./lessons/less33.md)
 34. [Внутреннее устройство std::unordered_map](./lessons/less34.md)
 35. [Аллокаторы, allocator_traits](./lessons/less35.md)
+36. [Allocator_aware контейнеры. Перегрузка new и delete](./lessons/less36.md)
 
