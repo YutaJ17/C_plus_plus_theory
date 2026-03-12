@@ -41,5 +41,6 @@
 37. [Разновидности и реализация operator new. Выравнивания. Битовые поля.](./lessons/less37.md)
 38. [Scope allocators. Атрибуты. Move-семантика (начало)](./lessons/less38.md)
 39. [Функция std::move. Определения lvalue и rvalue. Rvalue ссылки.](./lessons/less39.md)
+40. [Ссылочные квалификаторы. Универсальные ссылки. Функция std::forward](./lessons/less40.md)
 
 

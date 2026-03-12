@@ -146,7 +146,7 @@ Each *expression* has two independent properties: *type* and *value category*.
 ```cpp
 int x = 5;
 int&& y = x;  // CE
-int&& y = 6;  // ok, life time prolongation (продление жизни объекта)
+int&& y = 6;  // ok, life time prolongation (или extension) (продление жизни объекта)
 y = 7;  // ok 
 int&& z = y; // CE, так как справа - lvalue 
 int&& z = std::move(y);  // ok, так как из std::move возвращается T&&, то есть rvalue expression
