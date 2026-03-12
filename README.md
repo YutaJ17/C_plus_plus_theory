@@ -38,9 +38,10 @@
 34. [Внутреннее устройство std::unordered_map](./lessons/less34.md)
 35. [Аллокаторы, allocator_traits](./lessons/less35.md)
 36. [Allocator_aware контейнеры. Перегрузка new и delete](./lessons/less36.md)
-37. [Разновидности и реализация operator new. Выравнивания. Битовые поля.](./lessons/less37.md)
+37. [Разновидности и реализация operator new. Выравнивания. Битовые поля](./lessons/less37.md)
 38. [Scope allocators. Атрибуты. Move-семантика (начало)](./lessons/less38.md)
-39. [Функция std::move. Определения lvalue и rvalue. Rvalue ссылки.](./lessons/less39.md)
+39. [Функция std::move. Определения lvalue и rvalue. Rvalue ссылки](./lessons/less39.md)
 40. [Ссылочные квалификаторы. Универсальные ссылки. Функция std::forward](./lessons/less40.md)
+41. [Реализация std::move и std::forward. Реализация push_back с move семантикой](./lessons/less41.md)
 
 
