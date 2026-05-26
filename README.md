@@ -45,3 +45,30 @@
 41. [Реализация std::move и std::forward. Реализация push_back с move семантикой](./lessons/less41.md)
 
 
+
+---
+будет вскоре добавлено
+
+42. [Expired values. Copy elision. Return value optimization](./lessons/less42.md)
+43. [Вывод типов auto, decltype, decltype (auto)](./lessons/less43.md)
+44. [Deduction this. CTAD. Structure bindings, tuples](./lessons/less44.md)
+45. [Tuple, идея, реализации. Функции работы с tuple](./lessons/less45.md)
+46. [Внутреннее устройство shared_ptr и weak_ptr](./lessons/less46.md)
+47. [Type erasure, std::any. Окончание реализации shared_ptr](./lessons/less47.md)
+48. [SFINAE. std::enable_if](./lessons/less48.md)
+49. [Реализация type_traits с помощью SFINAE](./lessons/less49.md)
+50. [SFINAE-friendliness. Constraints and requirements](./lessons/less50.md)
+51. [Requires-выражения. Концепты](./lessons/less51.md)
+52. [Концепты (окончание). Лямбда-функции (начало)](./lessons/less52.md)
+53. [Лямбда-функции. Списки захвата. Замыкания.](./lessons/less53.md)
+54. [Объекты замыканий. Обобщенные лямбды. Рекурсивные лямбды.](./lessons/less54.md)
+55. [std::function и ее реализация. std::invoke](./lessons/less55.md)
+56. [Проблемы std::function. std::bind, std::reference_wrapper](./lessons/less56.md)
+57. [Unions, std::variant, std::visit. Overload pattern](./lessons/less57.md)
+58. [Внутреннее устройство std::variant и std::visit](./lessons/less58.md)
+59. [std::launcher. Strict aliasing. Constexpr переменные и функции](./lessons/less59.md)
+60. [Constant expressions. Constexpr, consteval, std::is_constant_evaluated](./lessons/less60.md)
+61. [Единицы трансляции. ODR. Внешнее и внутреннее связывание](./lessons/less61.md)
+
+
+
